@@ -1,0 +1,38 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh; /* Full viewport height */
+  display: flex; /* Use Flexbox for the body */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  background: linear-gradient(to top, rgb(216, 194, 194), rgb(34, 0, 128));
+}
+.counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px; 
+  
+}
+.step{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.count{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+button{     
+    height: 50px;
+    width: 50px;
+    background: linear-gradient(to top, rgb(216, 194, 194), rgb(34, 0, 128)); 
+    color: rgb(19, 18, 18);
+    font-size: x-large;
+    border-radius: 15px;
+    border: none;
+}
